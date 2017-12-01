@@ -18,6 +18,9 @@ class trainingEngine(object):
     def make_move(self, color, vertex):
         return True # assume a good move
 
+    def set_komi(self, komi):
+        self.komi = komi
+
     def set_size(self, n):
         self.size = n
         assert n == 9
